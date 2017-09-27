@@ -4,6 +4,9 @@
 # Shell script to install simple-node-task-api, including dependencies, and start the Express node API
 #########
 
+# update all installed packages
+sudo yum -y update
+
 # install deps
 curl --silent --location https://rpm.nodesource.com/setup_6.x | sudo bash -
 sudo yum -y install nodejs

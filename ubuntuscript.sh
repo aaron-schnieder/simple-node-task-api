@@ -4,6 +4,9 @@
 # Shell script to install simple-node-task-api, including dependencies, and start the Express node API
 #########
 
+# update all installed packages
+sudo apt-get –y update
+
 # install deps
 curl -sL https://deb.nodesource.com/setup | sudo bash -
 sudo apt-get install –y nodejs
